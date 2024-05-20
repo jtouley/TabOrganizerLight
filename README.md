@@ -2,6 +2,9 @@
 
 TabOrganizerLight is an Android app designed to help users view and manage their open tabs in the Chrome browser. This project was inspired by a comment from Ryan H, which led to the exploration of developing an app that accesses and organizes browser tabs.
 
+![App Overview](images/app_image.png)
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -51,6 +54,9 @@ To set up the project locally, follow these steps:
 During the development of TabOrganizerLight, we encountered significant challenges, particularly with Android's permissions. Accessing browser bookmarks and open tabs is restricted by Google's security policies, which prevent apps from reading this data without the appropriate permissions.
 
 Despite our efforts to handle permissions dynamically, the app cannot function as intended due to these restrictions. This limitation underscores the importance of understanding platform constraints and navigating security policies in app development.
+
+![Log Output](images/logcat_showing_permission_failure.png)
+
 
 ## Lessons Learned
 
